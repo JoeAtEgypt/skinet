@@ -1,11 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eBeBFjGq8/s=",
+  "dgSpecHash": "lFSB+byFitU=",
   "success": true,
   "projectFilePath": "/home/joe/Desktop/Backend/dotNet/skinet/API/API.csproj",
-  "expectedPackageFiles": [
-    "/home/joe/.nuget/packages/microsoft.aspnetcore.openapi/9.0.7/microsoft.aspnetcore.openapi.9.0.7.nupkg.sha512",
-    "/home/joe/.nuget/packages/microsoft.openapi/1.6.17/microsoft.openapi.1.6.17.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }
