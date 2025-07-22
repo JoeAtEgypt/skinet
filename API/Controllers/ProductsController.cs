@@ -29,6 +29,20 @@ public class ProductsController(IProductRepository repo) : ControllerBase
         return product;
     }
 
+    [HttpGet("brands")] // api/products/brands
+    public async Task<ActionResult<IReadOnlyList<string>>> GetBrands()
+    {
+        // Fetch distinct brands from the products
+        return Ok(await repo.GetBrandsAsync());
+    }
+
+    [HttpGet("types")] // api/products/types
+    public async Task<ActionResult<IReadOnlyList<string>>> GetTypes()
+    {
+        // Fetch distinct types from the products
+        return Ok(await repo.GetTypesAsync());
+    }
+
     [HttpPost]
     public async Task<ActionResult<Product>> CreateProduct(Product product)
     {
